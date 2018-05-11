@@ -1,0 +1,34 @@
+{
+  "name": "ibrand/server",
+  "type": "library",
+  "description": "ibrand api server",
+  "keywords": [
+    "iBrand",
+    "api",
+    "server"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "shjchen",
+      "email": "ibrand.shjchen@foxmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "iBrand\\Server\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "iBrand\\Server\\Providers\\ServerServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

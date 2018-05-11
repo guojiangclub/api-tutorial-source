@@ -168,6 +168,8 @@ return [
          * Package Service Providers...
          */
 
+        iBrand\Server\Providers\ServerServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
